@@ -99,13 +99,11 @@ colors =['red','green','blue']
 
 for i in colors:
     print(i)
-
 for i in colors:
     print(i*2)
-
 colors.append('grey')  #что то добавляем в конец списка
 print(colors)
-# colors.remove('red') # что то выпииваем из списка или del colors[2]
+colors.remove('red') # что то выпииваем из списка или del colors[2]
 print(colors)
 
 #                       Функции аля Методы
